@@ -12,11 +12,8 @@ class Navbar extends Component {
         <ul className="nav-menu">
           <li>
             <a href="/">
-            <i class="fa-solid fa-house"></i>
-            
-              Home
-       
-            
+                <i className="fa-solid fa-house"></i>
+                Home
             </a>
           </li>
 
