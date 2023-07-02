@@ -1,5 +1,4 @@
 import './App.css';
-import Navbar from "./components/Navbar";
 import {Route, Routes} from "react-router-dom";
 import Home from './routes/Home';
 import About from './routes/About';
@@ -18,7 +17,6 @@ function App() {
         <Route path='/meet-team' element={<MeetTeam/>}/>
 
       </Routes>
-      <Navbar />
     </div>
   );
 }
