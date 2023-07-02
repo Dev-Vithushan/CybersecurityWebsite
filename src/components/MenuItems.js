@@ -10,12 +10,15 @@ export const MenuItems = [
         url: '/about',
         cName: 'nav-links',
         icon: "fa-solid fa-circle-info"
+
     },
     {
         title: 'Service',
         url: '/service',
         cName: 'nav-links',
         icon: "fa-solid fa-briefcase"
+   
+        
     },
     {
         title: 'Contact',
