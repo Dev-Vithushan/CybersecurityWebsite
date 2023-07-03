@@ -4,6 +4,7 @@
     height: 100%;
     position: relative;
     object-fit: cover;
+    opacity: 90%;
 
 
 
@@ -42,6 +43,12 @@
     letter-spacing: 2px;
     color: black;
     
+}
+
+.hero-text .show:hover {
+    background-color: rgb(134, 219, 134);
+    transition: none;
+    color: white ;
 }
 
 /* img {
