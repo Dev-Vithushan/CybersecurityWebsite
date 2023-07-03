@@ -1,15 +1,16 @@
 import "./HeroStyle.css"
-import HeroImage from "../Assets/hero1.png"
+import HeroImage from "../Assets/heroImage.jpg"
 
 
-function Hero() {
+function Hero(props) {
 
     return(
         <div>
-            < img className="hero-image" alt="Image" src={HeroImage}/>
+            < img className={props.cName} alt="Image" src={props.heroImg}/>
             <div className="hero-text"> 
-                <h1> We Have the Biggest Solutions</h1>
-                <p> You can Join with us</p>
+                <h1> {props.title}</h1>
+                <p>  {props.text}</p>
+                <a href="/"> Join With Us</a>
             </div>
         </div>
     )
