@@ -10,7 +10,7 @@ function Hero(props) {
             <div className="hero-text"> 
                 <h1> {props.title}</h1>
                 <p>  {props.text}</p>
-                <a href="/"> Join With Us</a>
+                <a href={props.url} className={props.buttonText}> {props.buttonText}</a>
             </div>
         </div>
     )
