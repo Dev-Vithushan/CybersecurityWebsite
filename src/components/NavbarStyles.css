@@ -110,7 +110,9 @@
     }
 
     .NavbarItems {
+        background-color: white;
         z-index: 0;
+        
     }
 
     .menu-icon {

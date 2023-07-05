@@ -1,7 +1,7 @@
-.hero{
+/* .hero{
 
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
     object-fit: cover;
     opacity: 90%;
@@ -9,11 +9,27 @@
 
 
 
+} */
+
+.hero{
+
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+    object-fit: cover;
+    /* opacity: 70%; */
+
+
+
+
 }
+
+
+
 
 .hero-text {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -27,7 +43,7 @@
     -webkit-text-fill-color: transparent;
 }
 .hero-text p {
-    font-size: 2.3rem;
+    font-size: 2rem;
     color: white;
     padding: 0.5rem 0 2rem 0;
     
@@ -49,6 +65,43 @@
     background-color: rgb(134, 219, 134);
     transition: none;
     color: white ;
+}
+
+@media screen and (max-width: 555px) {
+
+    /* .hero{
+
+        position: relative;
+        object-fit: cover;
+        opacity: 90%;
+        z-index: -1;
+    
+    
+    
+    } */
+
+
+
+    .hero-text h1 {
+        padding: 10px 20px;
+        z-index: 0;
+        
+    }
+
+    .hero-text p {
+
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+
+
+    }
+
+    .hero-text .show {
+        padding: .6rem 1.1rem;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+    
 }
 
 /* img {
