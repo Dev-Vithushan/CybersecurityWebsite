@@ -18,9 +18,14 @@
     /* position: relative; */
     object-fit: cover;
     /* opacity: 70%; */
+}
 
-
-
+.hero-mid {
+    width: 100%;
+    height: 70vh;
+    /* position: relative; */
+    object-fit: cover;                                                               
+    /* opacity: 70%; */
 
 }
 
