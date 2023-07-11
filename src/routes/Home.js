@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
 import HeroImage from "../Assets/design.jpg"
 import Description from "../components/Description";
+import Button from "../components/Button";
 
 
 
@@ -20,6 +21,12 @@ function Home() {
             
             />
             <Description/>
+            <Button
+                url="/service"
+                buttonText="More About our services"
+            
+            
+            />
         
         </div>
     )

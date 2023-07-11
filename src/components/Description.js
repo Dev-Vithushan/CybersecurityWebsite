@@ -33,7 +33,7 @@ const Description = (props) => {
             
             />
 
-            <DestinationData
+            {/* <DestinationData
                 ClName="first-des"
                 heading="System Implementation"
                 text="We have years of experience successfully configuring, tailoring, and deploying GIS to meet enterprise needs. We have implemented systems from light, easy to use, inexpensive starter systems that invite broad and varied GIS use. Our clients' GIS often serves hundreds of enterprise users, and many more online."
@@ -71,7 +71,7 @@ const Description = (props) => {
             
             
             
-            />
+            /> */}
         </div>
     )
 }
