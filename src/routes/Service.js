@@ -1,14 +1,14 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
-import HeroImage from "../Assets/servicesHero-min.jpg"
+import HeroImage from "../Assets/waves.jpg"
 import DestinationData from "../components/DestinationData"
 import ServiceImage2 from "../Assets/nasaAir.jpg"
 import ServiceImage from "../Assets/search.jpg"
 import serviceMobile from "../Assets/phone.jpg"
 import System from "../Assets/satelliteEarth.jpg"
 import Spatial from "../Assets/spatial.jpg"
-import DataManagement from "../Assets/dataManagement1.jpg"
-import SystemAdmin from "../Assets/systemadmin.jpg"
+import DataManagement from "../Assets/data3.jpg"
+import SystemAdmin from "../Assets/systeminte.jpg"
 import "../components/DescriptionStyle.css"
 
 function Service() {
@@ -16,7 +16,7 @@ function Service() {
         <div>
             <Navbar/>
             <Hero
-                cName="hero"
+                cName="hero-mid"
                 heroImg={HeroImage}
                 title="We Provide Services"
                 text="Innovation the power of where"

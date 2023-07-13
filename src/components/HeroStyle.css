@@ -11,7 +11,7 @@
 
 } */
 
-.hero{
+.hero {
 
     width: 100%;
     height: 100vh;
@@ -24,7 +24,7 @@
     width: 100%;
     height: 70vh;
     /* position: relative; */
-    object-fit: cover;                                                               
+    object-fit: cover;
     /* opacity: 70%; */
 
 }
@@ -47,11 +47,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .hero-text p {
     font-size: 2rem;
     color: white;
     padding: 0.5rem 0 2rem 0;
-    
+
 }
 
 .hero-text .show {
@@ -63,13 +64,13 @@
     font-weight: bold;
     letter-spacing: 2px;
     color: black;
-    
+
 }
 
 .hero-text .show:hover {
     background-color: rgb(134, 219, 134);
     transition: none;
-    color: white ;
+    color: white;
 }
 
 .buttonClass {
@@ -86,7 +87,7 @@
 .buttonClass:hover {
     background-color: rgb(134, 219, 134);
     transition: none;
-    color: white ;
+    color: white;
 }
 
 @media screen and (max-width: 555px) {
@@ -107,7 +108,7 @@
     .hero-text h1 {
         padding: 10px 20px;
         z-index: 0;
-        
+
     }
 
     .hero-text p {
@@ -129,7 +130,7 @@
         border-radius: 6px;
         font-size: 1rem;
     }
-    
+
 }
 
 /* img {

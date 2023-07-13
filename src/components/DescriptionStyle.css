@@ -27,11 +27,13 @@
 }
 
 .first-des {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 1rem;
     padding-bottom: 10px;
+    transition-delay: 1000ms;
  
     
 
@@ -65,7 +67,7 @@
 
 .image {
     position: relative;
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     z-index: -99;
