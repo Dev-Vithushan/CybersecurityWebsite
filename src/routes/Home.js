@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import HeroImage from "../Assets/design.jpg"
 import Description from "../components/Description";
 import Button from "../components/Button";
+import ContactForm from "../components/ContactForm";
 
 
 
@@ -21,12 +22,14 @@ function Home() {
             
             />
             <Description/>
-            <Button
+            {/* <Button
                 url="/service"
                 buttonText="More About our services"
             
             
-            />
+            /> */}
+            <ContactForm/>
+
         
         </div>
     )
