@@ -4,7 +4,7 @@ import HeroImage from "../Assets/design.jpg"
 import Description from "../components/Description";
 import Button from "../components/Button";
 import ContactForm from "../components/ContactForm";
-
+import Footer from "../components/Footer";
 
 
 function Home() {
@@ -29,6 +29,8 @@ function Home() {
             
             /> */}
             <ContactForm/>
+
+            <Footer/>
 
         
         </div>
