@@ -34,6 +34,7 @@
 
 .buttonClass {
     border: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width:850px) {

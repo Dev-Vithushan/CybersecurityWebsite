@@ -1,8 +1,14 @@
+import Profile from "../components/ProfileComponent"
+import "../components/ProfileStyle.css"
+import Navbar from "../components/Navbar";
+
+
 function MeetTeam() {
-    return(
+    return (
         <div>
-            <h1>Hello form the Team Page</h1>
-        
+            <Navbar />
+            <Profile />
+
         </div>
     )
 
