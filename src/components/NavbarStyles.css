@@ -73,15 +73,16 @@
 
     .nav-menu {
         display: flex;
+        /* position: static; */
         position: fixed;
         -index: 100;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: flex-start;
         background-color: white;
         width: 100%;
         height: auto;
-        position: absolute;
+        /* position: absolute; */
         top: 0;
         left: -100%;
         opacity: 0;
@@ -90,6 +91,7 @@
         margin: 0;
         transition: 0.3s ease-in-out;
         border-radius: 13px;
+        
 
 
     }
@@ -115,7 +117,7 @@
 
     .NavbarItems {
         background-color: white;
-        z-index: 0;
+        /* z-index: 0; */
 
     }
 
