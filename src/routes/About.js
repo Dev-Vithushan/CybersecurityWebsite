@@ -9,7 +9,7 @@ function About() {
             <Hero
                 cName="hero-mid"
                 heroImg={HeroImage}
-                title = <span> At CodeRunner it all about answering to your Question  </span> 
+                title = <span> At CodeRunner it all about answering to your Questions  </span> 
                 text="Innovation the power of where"
                 buttonText="Join With Us"
                 url="/"
