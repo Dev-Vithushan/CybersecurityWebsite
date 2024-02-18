@@ -5,22 +5,26 @@ import Description from "../components/Description";
 import Button from "../components/Button";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
+import SlideShow from "../components/SlideShow";
+
 
 
 function Home() {
     return(
         <div>
             <Navbar/>
-            <Hero
+            {/* <Hero
                 cName="hero"
                 heroImg={HeroImage}
-                title= "Geospatial Solution  for your Enterprise" 
+                title= "Connect with us for the best services Cyber Security and Web Development" 
                 text="Innovation the power of where"
                 buttonText="Join With Us"
                 url="/"
                 btnClass="show"
             
-            />
+            /> */}
+
+            <SlideShow/>
             <Description/>
             {/* <Button
                 url="/service"

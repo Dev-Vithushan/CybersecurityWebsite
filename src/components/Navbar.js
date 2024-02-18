@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./NavbarStyles.css"
 import { MenuItems } from "./MenuItems";
-import Logo from "../Assets/logoname.png"
+import Logo from "../Assets/cyberLogo.png"
 import { Link } from "react-router-dom";
 
 

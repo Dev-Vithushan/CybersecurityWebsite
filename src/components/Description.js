@@ -8,6 +8,10 @@ import Spatial from "../Assets/spatial.jpg"
 import DataManagement from "../Assets/dataManagement1.jpg"
 import SystemAdmin from "../Assets/systemadmin.jpg"
 
+
+import HelpDesk from "../Assets/cyberDesk.jpg"
+import CloudDesk from "../Assets/CloudDesk.jpg"
+
 const Description = (props) => {
     return (
         <div className="destination">
@@ -15,9 +19,9 @@ const Description = (props) => {
             
             <DestinationData
                 ClName="first-des"
-                heading="Solution Architecture & Design"
-                text="Geospatial architecture design is your strategic blueprint for GIS program success. It details how geospatial technology and management elements work together to efficiently accomplish the mission of your organization. Our technical architects will bring together your ideas and vision along with our technical expertise to implement a solution that is customized to your needs."
-                Image={ServiceImage}
+                heading="Cyber Security Helpdesk"
+                text="The primary goal of a cybersecurity help desk is to enhance the overall security posture of its users by offering timely and effective support. This can include troubleshooting security incidents, offering guidance on security best practices, and providing education on potential threats. The help desk team typically consists of knowledgeable cybersecurity professionals who are well-versed in various aspects of information security."
+                Image={HelpDesk}
             
             
             
@@ -25,9 +29,9 @@ const Description = (props) => {
 
             <DestinationData
                 ClName="first-des-reverse"
-                heading="Application Development"
-                text="From strategy, to design, to development, we have the capabilities to handle all your application development needs. Whatever your business needs are, we can develop customized apps to set you on the right path to modernizing your workflows, reducing costs, and reaching your organization’s short and long-term goals."
-                Image={serviceMobile}
+                heading="Cloud Security Helpdesk"
+                text="In an era where businesses rely heavily on cloud computing to drive innovation and efficiency, ensuring the security of your cloud environment is paramount. Our Cloud Security Helpdesk is a dedicated support service designed to empower organizations in navigating the complexities of cloud security, safeguarding digital assets, and fostering a resilient cybersecurity posture in the cloud."
+                Image={CloudDesk}
             
             
             
