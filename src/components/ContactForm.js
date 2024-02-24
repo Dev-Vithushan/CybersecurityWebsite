@@ -16,19 +16,9 @@ function ContactForm() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_qrddnai', 'template_cqj8ipb', form.current, 'l9M2SgbqrpRVdNZ4J')
+        emailjs.sendForm('service_0hky8sj', 'template_cqj8ipb', form.current, 'l9M2SgbqrpRVdNZ4J')
             .then((result) => {
                 console.log(result.text);
-
-                
-               
-
-                
-                
-
-
-
-
 
                 var frm = document.getElementsByName('ContactForm')[0];
                 // frm.submit();

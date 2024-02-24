@@ -75,7 +75,8 @@
 
 .buttonClass {
     text-decoration: none;
-    background: rgb(134, 219, 134);
+    /* background: rgb(134, 219, 134); */
+    background: rgb(101, 183, 255);
     padding: 1rem 2rem;
     border-radius: 6px;
     font-size: 1.1rem;
@@ -85,7 +86,8 @@
 }
 
 .buttonClass:hover {
-    background-color: rgb(134, 219, 134);
+    /* background-color: rgb(134, 219, 134); */
+    background-color: rgb(101, 183, 255);
     transition: none;
     color: white;
 }

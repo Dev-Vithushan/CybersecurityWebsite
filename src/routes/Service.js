@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
 
 import CloudDesk from "../Assets/CloudDesk.jpg"
-import HeroImage from "../Assets/waves.jpg"
+import HeroImage from "../Assets/homeImages/2.jpeg"
 import DestinationData from "../components/DestinationData"
 import ServiceImage2 from "../Assets/nasaAir.jpg"
 import ServiceImage from "../Assets/search.jpg"

@@ -8,7 +8,6 @@ const SlideShow = () => {
             <Slide slidesToScroll={5} slidesToShow={3} indicators={true}>
                 <div style={{
                         textAlign: 'center',
-                        backgroundImage: 'url(../Assets/bg-1.png)',
                         background: 'red',
                         padding: '200px 0',
                         fontSize: '30px'

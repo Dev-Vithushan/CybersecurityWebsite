@@ -6,7 +6,9 @@ import Button from "../components/Button";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
 import SlideShow from "../components/SlideShow";
-
+import CardHome from "../components/CardHome";
+import Carousel from "react-elastic-carousel";
+import Questions from "../components/Questions";
 
 
 function Home() {
@@ -24,7 +26,14 @@ function Home() {
             
             /> */}
 
-            <SlideShow/>
+            {/* <SlideShow/> */}
+            <Carousel>
+                <CardHome/>
+                <CardHome/>
+                <CardHome/>
+                <CardHome/>
+            </Carousel>
+        
             <Description/>
             {/* <Button
                 url="/service"
@@ -35,6 +44,7 @@ function Home() {
             <ContactForm/>
 
             <Footer/>
+            <Questions/>
 
         
         </div>

@@ -3,20 +3,20 @@ export const MenuItems = [
         title: 'Home',
         url: '/',
         cName: 'nav-links',
-        icon: "fa-solid fa-house"
+        icon: "fa-solid fa-house-laptop"
     },
     {
         title: 'About',
         url: '/about',
         cName: 'nav-links',
-        icon: "fa-solid fa-circle-info"
+        icon: "fa-solid fa-hand"
 
     },
     {
         title: 'Service',
         url: '/service',
         cName: 'nav-links',
-        icon: "fa-solid fa-briefcase"
+        icon: "fa-solid fa-gears"
    
         
     },
@@ -24,13 +24,13 @@ export const MenuItems = [
         title: 'Contact',
         url: '/contact',
         cName: 'nav-links',
-        icon: "fa-solid fa-address-book"
+        icon: "fa-solid fa-handshake"
     },
     {
-        title: 'Meet Team',
+        title: 'Products',
         url: '/meet-team',
         cName: 'nav-links',
-        icon: "fa-solid fa-people-group"
+        icon: "fa-solid fa-cloud"
     }
 ]
 
