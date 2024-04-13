@@ -6,13 +6,6 @@ export const MenuItems = [
         icon: "fa-solid fa-house-laptop"
     },
     {
-        title: 'About',
-        url: '/about',
-        cName: 'nav-links',
-        icon: "fa-solid fa-hand"
-
-    },
-    {
         title: 'Service',
         url: '/service',
         cName: 'nav-links',
@@ -21,16 +14,23 @@ export const MenuItems = [
         
     },
     {
+        title: 'Products',
+        url: '/products',
+        cName: 'nav-links',
+        icon: "fa-solid fa-cloud"
+    },
+    {
+        title: 'About',
+        url: '/about',
+        cName: 'nav-links',
+        icon: "fa-solid fa-hand"
+
+    },
+    {
         title: 'Contact',
         url: '/contact',
         cName: 'nav-links',
         icon: "fa-solid fa-handshake"
-    },
-    {
-        title: 'Products',
-        url: '/meet-team',
-        cName: 'nav-links',
-        icon: "fa-solid fa-cloud"
     }
 ]
 

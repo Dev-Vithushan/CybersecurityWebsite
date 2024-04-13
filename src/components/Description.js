@@ -1,12 +1,6 @@
 import "./DescriptionStyle.css"
 import DestinationData from "../components/DestinationData"
-import ServiceImage2 from "../Assets/nasaAir.jpg"
-import ServiceImage from "../Assets/search.jpg"
-import serviceMobile from "../Assets/phone.jpg"
-import System from "../Assets/satelliteEarth.jpg"
-import Spatial from "../Assets/spatial.jpg"
-import DataManagement from "../Assets/dataManagement1.jpg"
-import SystemAdmin from "../Assets/systemadmin.jpg"
+import { Link } from "react-router-dom"
 
 
 import HelpDesk from "../Assets/cyberDesk.jpg"
@@ -36,6 +30,16 @@ const Description = (props) => {
             
             
             />
+
+            {/* <ButtonHome
+
+                url="/Service"
+                buttonText="Our Services"
+            
+            /> */}
+            <Link to="/Service" className="buttonClass">Our Services</Link>
+
+            
 
             {/* <DestinationData
                 ClName="first-des"

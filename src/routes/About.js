@@ -1,21 +1,23 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
 import HeroImage from "../Assets/aboutNew.jpg"
+import Footer from "../components/Footer";
 
 function About() {
     return(
         <div>
             <Navbar/>
             <Hero
-                cName="hero-mid"
+                cName="hero"
                 heroImg={HeroImage}
-                title = <span> At CodeRunner it all about answering to your Questions  </span> 
-                text="Innovation the power of where"
+                title = <span> Let's Collobrate with us  </span> 
+                // text="Innovation the power of where"
                 buttonText="Join With Us"
                 url="/"
                 btnClass="show"
             
             />
+            <Footer/>
         
         </div>
     )

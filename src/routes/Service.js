@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero";
-
+import Footer from "../components/Footer";
 import CloudDesk from "../Assets/CloudDesk.jpg"
 import HeroImage from "../Assets/homeImages/2.jpeg"
 import DestinationData from "../components/DestinationData"
@@ -26,7 +26,7 @@ function Service() {
         <div>
             <Navbar/>
             <Hero
-                cName="hero-mid"
+                cName="hero"
                 heroImg={HeroImage}
                 title="We Provide Services"
                 text="Innovation the power of where"
@@ -61,7 +61,7 @@ function Service() {
 
             <DestinationData
                 ClName="first-des"
-                heading="IT Support"
+                heading="IT Support Updated"
                 text="In the dynamic landscape of today's technology-driven business environment, seamless and reliable IT support is crucial for the uninterrupted operation of your organization. Our Comprehensive IT Support Solutions are designed to provide end-to-end support, ensuring that your technology infrastructure remains robust, secure, and aligned with your business objectives."
                 Image={IT}
             
@@ -118,6 +118,8 @@ function Service() {
             
             />
         </div>
+
+            <Footer/>
 
     
 

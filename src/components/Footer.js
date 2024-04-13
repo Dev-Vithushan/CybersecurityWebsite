@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="footer">
             <div className="top">
                 <div>
-                    <h1> cybersecurity </h1>
-                    <p> Join With us</p>
+                    <h1> GoGoSecurity </h1>
+                    {/* <p> Join With us</p> */}
                 </div>
                 <div >
                     <a href="/">
@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div className="bottom">
+            {/* <div className="bottom">
                 <div>
                     <h4> Projects </h4>
                    <a href="/"> Changelog </a> 
@@ -49,9 +49,9 @@ const Footer = () => {
                    <a href="/"> Changelog </a> 
                    <a href="/"> Changelog </a> 
                    <a href="/"> Changelog </a> 
-                </div>
+                </div> */}
 
-            </div>
+            {/* </div> */}
         </div>
     )
 }

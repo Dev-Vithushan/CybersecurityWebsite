@@ -16,7 +16,8 @@ function ContactForm() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_0hky8sj', 'template_cqj8ipb', form.current, 'l9M2SgbqrpRVdNZ4J')
+        // emailjs.sendForm('service_0hky8sj', 'template_cqj8ipb', form.current, 'l9M2SgbqrpRVdNZ4J')
+        emailjs.sendForm('service_5t9djl4', 'template_hrjwzjn', form.current, '1fjc9N5Is0pvKshsG')
             .then((result) => {
                 console.log(result.text);
 
@@ -25,7 +26,7 @@ function ContactForm() {
                 frm.reset();
                 // return false;
                 Swal.fire({
-                    position: 'middle',
+                    position: 'middle', 
                     icon: 'success',
                     title: 'Your message has been sent',
                     showConfirmButton: false,
