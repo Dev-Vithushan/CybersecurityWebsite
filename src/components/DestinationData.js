@@ -1,5 +1,6 @@
 import "./DescriptionStyle.css"
 import { Component } from "react";
+import Button from "./Button";
 
 class DestinationData extends Component {
     render() {
@@ -8,6 +9,7 @@ class DestinationData extends Component {
                 <div className="des-text">
                     <h2>{this.props.heading} </h2>
                     <p> {this.props.text} </p>
+                    <Button buttonText="Learn More" url={this.props.url} />
 
                 </div>
 
@@ -19,8 +21,10 @@ class DestinationData extends Component {
                     {/* <img className="serviceImage" alt="Solution" src={ServiceImage2}/> */}
                     
                 
-                
+                    
                 </div>
+                
+
 
             </div>
         )}}

@@ -18,6 +18,16 @@ import NIST from './components/products/NIST';
 import NISTA from './components/products/NISTA';
 
 
+import CyberSec from './components/services/cyberSec'
+import CloudSec from './components/services/cloudSec'
+import SISO from './components/services/ISO'
+import ITSupport from './components/services/ITSupport'
+import NoCode from './components/services/noCode'
+import SoftDevHelp from './components/services/softDevHelp'
+import WebDev from './components/services/webDev'
+
+
+
 function App() {
   return (
     <div className="App">
@@ -37,6 +47,15 @@ function App() {
         <Route path='/product/CIS' element={<CIS/>}/>
         <Route path='/product/NIST' element={<NIST/>}/>
         <Route path='/product/NISTA' element={<NISTA/>}/>
+
+        <Route path='/service/CyberSec' element={<CyberSec/>}/>
+        <Route path='/service/CloudSec' element={<CloudSec/>}/>
+        <Route path='/service/SISO' element={<SISO/>}/>
+        <Route path='/service/ITSupport' element={<ITSupport/>}/>
+        <Route path='/service/NoCode' element={<NoCode/>}/>
+        <Route path='/service/SoftDevHelp' element={<SoftDevHelp/>}/>
+        <Route path='/service/WebDev' element={<WebDev/>}/>
+
 
 
 
