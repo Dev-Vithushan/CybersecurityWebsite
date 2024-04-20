@@ -37,7 +37,7 @@ const Description = (props) => {
                 buttonText="Our Services"
             
             /> */}
-            <Link to="/Service" className="buttonClass">Our Services</Link>
+            <Link  to="/Service" className="buttonClass editClass">Our Services</Link>
 
             
 

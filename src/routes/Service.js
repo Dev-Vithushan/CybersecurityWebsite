@@ -102,20 +102,6 @@ function Service() {
             
             
             />
-            {/* Add the new Service here! */}
-            <DestinationData
-                // Add the ClName first-des-reverse or first-des
-                ClName="first-des-reverse" 
-                // Heading for the service
-                heading="XYZ"
-                // Contents for the services
-                text="Your Descrption"
-                // Adding the image name, it should be added from the import statement
-                Image={Data}
-            
-            
-            
-            />
         </div>
 
             <Footer/>

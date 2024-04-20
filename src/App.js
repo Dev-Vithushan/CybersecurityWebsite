@@ -15,7 +15,13 @@ import CIS from './components/products/CIS';
 import CSAA from './components/products/CSAA';
 import ISO from './components/products/ISO';
 import NIST from './components/products/NIST';
-import NISTA from './components/products/NISTA';
+// import NISTA from './components/products/NISTA';
+import CyberThreat from './components/products/CyberThreat'
+import Cyber from './components/products/Cyber'
+import Resil from './components/products/Resil'
+import DataP from './components/products/DataP'
+import AzureSec from './components/products/AzureSec'
+import GCP from './components/products/GCP'
 
 
 import CyberSec from './components/services/cyberSec'
@@ -46,7 +52,18 @@ function App() {
         <Route path='/product/CSAA' element={<CSAA/>}/>
         <Route path='/product/CIS' element={<CIS/>}/>
         <Route path='/product/NIST' element={<NIST/>}/>
-        <Route path='/product/NISTA' element={<NISTA/>}/>
+        
+
+        <Route path='/product/cyberthreat' element={<CyberThreat/>}/>
+        <Route path='/product/cyber' element={<Cyber/>}/>
+        <Route path='/product/resil' element={<Resil/>}/>
+        <Route path='/product/datap' element={<DataP/>}/>
+        <Route path='/product/azure' element={<AzureSec/>}/>
+        <Route path='/product/gcp' element={<GCP/>}/>
+
+
+        
+
 
         <Route path='/service/CyberSec' element={<CyberSec/>}/>
         <Route path='/service/CloudSec' element={<CloudSec/>}/>

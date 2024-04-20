@@ -11,20 +11,20 @@ export default function ProductComponent(props) {
  
             24/7 Support
             Expert Team
-            Remote Assistance
+            Remote Assistance <br/><br/>
             On-Site Support
             Multi-platform Support
             Hardware and Software Troubleshooting
-            Network and Connectivity Solutions
+            Network and Connectivity Solutions <br/><br/>
             Email and Communication Support
             Data Backup and Recovery
             Cybersecurity Assistance
-            Software Installation and Updates 
+            Software Installation and Updates  <br/><br/>
             Mobile Device Management 
             IT Asset Management 
             User Training and Education
             Service Level Agreements (SLAs)
-            Client Portal or Ticketing System
+            Client Portal or Ticketing System <br/><br/>
             Feedback and Satisfaction Surveys
             Transparent Pricing
             Customized Support Plans

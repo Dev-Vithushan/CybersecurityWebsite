@@ -11,18 +11,18 @@ export default function ProductComponent(props) {
                 Expert Team
                 Tailored Solutions
                 Incident Response
-                Vulnerability Management
+                Vulnerability Management <br/><br/>
                 Training and Awareness
                 Compliance Assistance
                 Threat Intelligence
                 Managed Security Services
-                Client Success Stories/Testimonials
+                Client Success Stories/Testimonials <br/><br/>
                 Partnerships and Certifications
                 Scalability
                 Transparent Pricing 
                 Customer Support Channels
                 Continuous Improvement
-                Free Consultation or Assessment
+                Free Consultation or Assessment <br/><br/>
                 Guarantees or SLAs
                 Community Engagement
                 Multi-platform Support

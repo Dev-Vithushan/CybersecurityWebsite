@@ -2,12 +2,30 @@ import React from "react";
 import Navbar from "../Navbar"
 
 
+
 export default function ProductComponent(props) {
+    const headStyle = {
+        marginBottom:"40px",
+        fontSize:"2.5rem"      
+
+    }
+
+    const desStyle = {
+        fontSize:"1.4rem",
+        marginTop:"20px",
+        textAlign:"left", 
+        paddingLeft:"30px",
+        marginRight:"10px",
+
+    }
+
+
     return (
         <div>
             <Navbar/>
-            <h1 style={{marginBottom:"40px",fontSize:"2.5rem"}}>No-code training and support</h1>
-            <h3 style={{fontSize:"1.4rem", marginTop:"20px", textAlign:"left", paddingLeft:"30px",marginRight:"10px"}}>Certainly! Here's a list of items for a No-code and Low-code Support Helpdesk marketing webpage:
+            {/* <h1 style={{marginBottom:"40px",fontSize:"2.5rem"}}>No-code training and support</h1> */}
+            <h1 style={headStyle}>No-code training and support</h1>
+            <h3 style={desStyle}>Certainly! Here's a list of items for a No-code and Low-code Support Helpdesk marketing webpage:
  
                 24/7 Support: Highlight round-the-clock availability to assist with any no-code and low-code development issues or emergencies, ensuring continuous support for clients' projects.
                 
@@ -15,7 +33,7 @@ export default function ProductComponent(props) {
                 
                 Platform Expertise: Showcase your proficiency in a variety of no-code and low-code platforms, such as Bubble, Webflow, Wix, WordPress, Zapier, and Microsoft Power Platform, ensuring compatibility with clients' chosen tools and projects.
                 
-                Guidance and Consultation: Offer guidance and consultation services to help clients choose the right no-code or low-code platform for their project requirements, providing insights on features, capabilities, and best practices.
+                Guidance and Consultation: Offer guidance and consultation services to help clients choose the right no-code or low-code platform for their project requirements, providing insights on features, capabilities, and best practices. <br/><br/>
                 
                 Platform Setup and Configuration: Detail your capability to set up and configure no-code and low-code platforms, assisting clients with account setup, project initialization, and initial configuration to kick-start their development process.
                 
@@ -23,7 +41,7 @@ export default function ProductComponent(props) {
                 
                 Workflow Automation: Showcase your expertise in workflow automation using no-code and low-code platforms, offering assistance with creating and optimizing automated processes for various business operations and tasks.
                 
-                Integration Services: Emphasize your capability to integrate no-code and low-code solutions with third-party applications, APIs, and services, enabling seamless connectivity and data exchange across different systems and platforms.
+                Integration Services: Emphasize your capability to integrate no-code and low-code solutions with third-party applications, APIs, and services, enabling seamless connectivity and data exchange across different systems and platforms.<br/><br/>
                 
                 Data Management and Reporting: Detail your proficiency in managing data within no-code and low-code platforms, offering assistance with data modeling, storage, and reporting to help clients derive insights and make data-driven decisions.
                 
@@ -35,7 +53,7 @@ export default function ProductComponent(props) {
                 
                 Scalability and Performance Optimization: Detail your expertise in optimizing no-code and low-code projects for scalability and performance, ensuring that clients' applications and workflows can handle increasing user loads and data volumes effectively.
                 
-                Security Best Practices: Offer guidance on security best practices for no-code and low-code development, including data encryption, access controls, and secure authentication methods, to help clients protect their projects from cyber threats and vulnerabilities.
+                Security Best Practices: Offer guidance on security best practices for no-code and low-code development, including data encryption, access controls, and secure authentication methods, to help clients protect their projects from cyber threats and vulnerabilities.<br/><br/>
                 
                 Client Collaboration and Communication: Showcase your commitment to open communication and collaboration with clients, offering regular updates, progress reports, and feedback sessions to ensure alignment and transparency throughout the development process.
                 

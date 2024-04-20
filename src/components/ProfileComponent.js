@@ -52,10 +52,60 @@ export default function ProfileComponent() {
 
                 <div className='card'>
                     <div className='content'>
-                        <h3>NIST 800-53 Audits</h3>
-                        <p>NIST Compliance Audits</p>
+                        <h3>Cyber Threat and Vulnerability Audit and Consulting</h3>
+                        <p>Provide a list of items for a Cyber Threat and Vulnerability Audit and Consulting Helpdesk marketing web page</p>
                         <div className='social-media'>
-                        <Link to="/product/NIST" className="buttonClass">Learn More</Link>
+                        <Link to="/product/cyberthreat" className="buttonClass">Learn More</Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='card'>
+                    <div className='content'>
+                        <h3>Cyber Identity and Access Management Audit and Consulting</h3>
+                        <p>Provide a list of items for a Cyber Identity and Access Management Audit and Consulting and Consulting Helpdesk marketing web page</p>
+                        <div className='social-media'>
+                        <Link to="/product/cyber" className="buttonClass">Learn More</Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='card'>
+                    <div className='content'>
+                        <h3>Resilience Audit and Consulting</h3>
+                        <p>User Provide a list of items for a Cyber Resilience Audit and Consulting and Consulting Helpdesk marketing web page</p>
+                        <div className='social-media'>
+                        <Link to="/product/resil" className="buttonClass">Learn More</Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='card'>
+                    <div className='content'>
+                        <h3>Data Protection Audit and Consulting</h3>
+                        <p>User Provide a list of items for a Data Protection Audit and Consulting Helpdesk marketing web page</p>
+                        <div className='social-media'>
+                        <Link to="/product/datap" className="buttonClass">Learn More</Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='card'>
+                    <div className='content'>
+                        <h3>Azure Security Audit and Consulting</h3>
+                        <p>Provide a list of items for an Azure Security Audit and Consulting Helpdesk marketing web page</p>
+                        <div className='social-media'>
+                        <Link to="/product/azure" className="buttonClass">Learn More</Link>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='card'>
+                    <div className='content'>
+                        <h3>GCP Security Audit and Consulting</h3>
+                        <p>Provide a list of items for an GCP Security Audit and Consulting Helpdesk marketing web page</p>
+                        <div className='social-media'>
+                        <Link to="/product/gcp" className="buttonClass">Learn More</Link>
                         </div>
                     </div>
                 </div>

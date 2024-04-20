@@ -13,7 +13,7 @@ export default function ProductComponent(props) {
             
             ISO Standards Covered: Specify the ISO standards covered by your services, such as ISO 9001 (Quality Management), ISO 14001 (Environmental Management), ISO 27001 (Information Security Management), ISO 45001 (Occupational Health and Safety), etc.
             
-            Customized Solutions: Emphasize your ability to tailor solutions to meet the specific needs and objectives of each client, providing personalized guidance and support throughout the certification process.
+            Customized Solutions: Emphasize your ability to tailor solutions to meet the specific needs and objectives of each client, providing personalized guidance and support throughout the certification process. <br/><br/>
             
             Gap Analysis and Readiness Assessment: Offer gap analysis and readiness assessment services to help clients identify areas of non-compliance and develop action plans to address deficiencies and improve their readiness for certification.
             
@@ -21,7 +21,7 @@ export default function ProductComponent(props) {
             
             Training and Workshops: Offer training programs and workshops to educate clients' teams on ISO standards, requirements, and best practices, empowering them to contribute effectively to the certification process and maintain compliance post-certification.
             
-            Internal Audits: Conduct internal audits to assess clients' adherence to ISO standards and identify opportunities for improvement, helping them continuously monitor and enhance their management systems.
+            Internal Audits: Conduct internal audits to assess clients' adherence to ISO standards and identify opportunities for improvement, helping them continuously monitor and enhance their management systems. <br/><br/>
             
             Certification Body Liaison: Serve as a liaison between clients and certification bodies, facilitating communication, scheduling audits, and addressing any queries or concerns throughout the certification process.
             
@@ -31,7 +31,7 @@ export default function ProductComponent(props) {
             
             Certification Maintenance Services: Offer services to help clients maintain their ISO certification over time, including periodic reviews, updates to documentation, and support during surveillance audits and recertification cycles.
             
-            Cost-Effective Solutions: Provide transparent pricing and cost-effective solutions, ensuring that clients receive value for money and can budget effectively for their ISO certification efforts.
+            Cost-Effective Solutions: Provide transparent pricing and cost-effective solutions, ensuring that clients receive value for money and can budget effectively for their ISO certification efforts. <br/><br/>
             
             Success Stories/Testimonials: Feature case studies or testimonials from satisfied clients who have achieved ISO certification with your assistance, demonstrating the effectiveness and impact of your services.
             
@@ -39,7 +39,7 @@ export default function ProductComponent(props) {
             
             Regulatory Compliance Support: Offer guidance on regulatory compliance requirements related to ISO standards, helping clients navigate complex regulatory landscapes and ensure alignment with industry-specific regulations.
             
-            Global Reach: Highlight your ability to support clients globally, with services available in multiple languages and expertise in addressing regional and cultural considerations related to ISO certification.
+            Global Reach: Highlight your ability to support clients globally, with services available in multiple languages and expertise in addressing regional and cultural considerations related to ISO certification. <br/><br/>
             
             Client Satisfaction Guarantee: Offer a satisfaction guarantee to assure clients of the quality and effectiveness of your services, providing peace of mind and confidence in their decision to partner with your organization.
             

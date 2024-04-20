@@ -111,19 +111,26 @@
         
         }
 
+        .editClass {
+            background-color: aqua;
+            margin-top: 20px;
+        }
+
         .des-text {
             width: 100%;
-            margin-top: 200px;
+            margin-top: 80px;
         }
 
         .image {
-            width: 100%;
-            margin: 1.8rem 0;
+            /* width: 20%; */
+            /* height: 20px; */
+            /* margin: 0.5rem 0; */
+            /* background-color: aqua; */
+
+            .serviceImage {
+                height: 250px;
+            }
            
         }
 
-        .image {
-            height: 250px;
-
-        }
 }
